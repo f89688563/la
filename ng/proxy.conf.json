@@ -1,6 +1,0 @@
-{
-	"**": {
-		"target": "http://localhost/la/public/",
-		"secure": false
-	}
-}
