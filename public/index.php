@@ -47,6 +47,31 @@ $app = require_once __DIR__.'/../bootstrap/app.php';
 |
 */
 
+// 配置名
+define('CONFIG_KF', 'kf');
+define('CONFIG_ABOUT', 'about');
+define('CONFIG_GIFT', 'gift');
+define('CONFIG_REG', 'reg');
+define('CONFIG_PUNCH', 'punch');
+define('CONFIG_SCALE', 'scale');
+define('CONFIG_ADDRESS', 'address');
+define('CONFIG_FARE', 'fare');
+define('CONFIG_SHARE_EXPLAIN', 'share_explain');
+
+// 微信相关
+define('CONFIG_APPID', 'appid');
+define('CONFIG_MCHID', 'mchid');
+define('CONFIG_APPKEY', 'appkey');
+define('CONFIG_APPSECRET', 'appsecret');
+// 订单支付
+define('CONFIG_MODULE_ORDER_PAY', 'orderpay');
+// 会员加入
+define('CONFIG_MODULE_MEMBER_IN', 'memberin');
+// 订单信息提醒
+define('CONFIG_MODULE_ORDER_CHANGE', 'orderchange');
+// 积分变动
+define('CONFIG_MODULE_JF_CHANGE', 'jfchange');
+
 $kernel = $app->make(Illuminate\Contracts\Http\Kernel::class);
 
 $response = $kernel->handle(
